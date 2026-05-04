@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   const { code } = req.query;
 
   if (!code) {
@@ -15,11 +15,13 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         client_id: process.env.OAUTH_CLIENT_ID,
         client_secret: process.env.OAUTH_CLIENT_SECRET,
-        code
+        code: code
       })
     });
 
-    const { access_token, error } = await tokenRes.json();
+    const data = await tokenRes.json();
+    const access_token = data.access_token;
+    const error = data.error;
 
     if (error || !access_token) {
       return res.send(buildResponse('error', { error: error || 'No token received' }));
@@ -30,30 +32,30 @@ export default async function handler(req, res) {
   } catch (err) {
     res.send(buildResponse('error', { error: err.message }));
   }
-}
+};
 
 function buildResponse(status, data) {
-  const message = JSON.stringify(`authorization:github:${status}:${JSON.stringify(data)}`);
+  var message = JSON.stringify('authorization:github:' + status + ':' + JSON.stringify(data));
 
-  return `<!DOCTYPE html>
-<html>
-<head><title>Authenticating...</title></head>
-<body>
-<script>
-  (function () {
-    var MSG = ${message};
-    function receiveMessage(e) {
-      if (e.data === 'authorizing:github') {
-        window.opener.postMessage(MSG, e.origin);
-        window.removeEventListener('message', receiveMessage);
-        window.close();
-      }
-    }
-    window.addEventListener('message', receiveMessage);
-    window.opener.postMessage('authorizing:github', '*');
-  })();
-</script>
-<p>Authenticating, please wait...</p>
-</body>
-</html>`;
+  return '<!DOCTYPE html>\n' +
+    '<html>\n' +
+    '<head><title>Authenticating...</title></head>\n' +
+    '<body>\n' +
+    '<script>\n' +
+    '(function () {\n' +
+    '  var MSG = ' + message + ';\n' +
+    '  function receiveMessage(e) {\n' +
+    '    if (e.data === \'authorizing:github\') {\n' +
+    '      window.opener.postMessage(MSG, e.origin);\n' +
+    '      window.removeEventListener(\'message\', receiveMessage);\n' +
+    '      window.close();\n' +
+    '    }\n' +
+    '  }\n' +
+    '  window.addEventListener(\'message\', receiveMessage);\n' +
+    '  window.opener.postMessage(\'authorizing:github\', \'*\');\n' +
+    '})();\n' +
+    '</script>\n' +
+    '<p>Authenticating, please wait...</p>\n' +
+    '</body>\n' +
+    '</html>';
 }
