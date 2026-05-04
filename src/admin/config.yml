@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/town-of-florida-website
+  repo: aricoenterprises/TOF_11ty
   branch: main
 
 # Set this to true to enable the editorial workflow (Draft > Review > Ready > Publish)
