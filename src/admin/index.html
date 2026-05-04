@@ -19,8 +19,8 @@
           auth_endpoint: 'api/auth'
         },
         publish_mode: 'editorial_workflow',
-        media_folder: 'src/images/uploads',
-        public_folder: '/images/uploads',
+        media_folder: 'src/uploads',
+        public_folder: '/uploads',
         collections: [
           {
             name: 'announcements',
@@ -40,7 +40,7 @@
                     fields: [
                       { label: 'Title', name: 'title', widget: 'string' },
                       { label: 'Description', name: 'description', widget: 'text' },
-                      { label: 'File URL', name: 'url', widget: 'string', hint: 'Paste the full URL to the PDF or Word document' },
+                      { label: 'Upload File', name: 'url', widget: 'file' },
                       {
                         label: 'File Type', name: 'type', widget: 'select',
                         options: [
@@ -67,7 +67,7 @@
                         fields: [
                           { label: 'Title', name: 'title', widget: 'string' },
                           { label: 'Description', name: 'description', widget: 'text', required: false },
-                          { label: 'File URL', name: 'url', widget: 'string' },
+                          { label: 'Upload File', name: 'url', widget: 'file' },
                           {
                             label: 'File Type', name: 'type', widget: 'select',
                             options: [
@@ -176,7 +176,7 @@
                     fields: [
                       { label: 'Form Title', name: 'title', widget: 'string' },
                       { label: 'Description', name: 'description', widget: 'text' },
-                      { label: 'File URL', name: 'url', widget: 'string' },
+                      { label: 'Upload File', name: 'url', widget: 'file' },
                       {
                         label: 'Icon', name: 'iconType', widget: 'select',
                         options: [
