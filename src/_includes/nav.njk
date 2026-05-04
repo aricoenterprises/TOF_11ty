@@ -1,0 +1,30 @@
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="/" class="nav__brand">
+        <div class="nav__logo"><img src="/images/favicon.webp" alt="Town of Florida seal" /></div>
+        <div class="nav__wordmark"><span class="nav__wordmark-town">Florida</span><span class="nav__wordmark-state">Massachusetts</span></div>
+      </a>
+      <ul class="nav__links">
+        <li><a href="/" {% if navKey == "home" %}class="active"{% endif %}>Home</a></li>
+        <li><a href="/history.html" {% if navKey == "history" %}class="active"{% endif %}>History</a></li>
+        <li><a href="/officials.html" {% if navKey == "officials" %}class="active"{% endif %}>Officials</a></li>
+        <li><a href="/minutes.html" {% if navKey == "minutes" %}class="active"{% endif %}>Minutes &amp; Reports</a></li>
+        <li><a href="/announcements.html" {% if navKey == "announcements" %}class="active"{% endif %}>Announcements</a></li>
+        <li><a href="/forms.html" {% if navKey == "forms" %}class="active"{% endif %}>Forms</a></li>
+        <li><a href="/contact.html" {% if navKey == "contact" %}class="active nav__cta"{% else %}class="nav__cta"{% endif %}>Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__mobile" role="navigation" aria-label="Mobile navigation">
+    <a href="/">Home</a>
+    <a href="/history.html">History</a>
+    <a href="/officials.html">Town Officials</a>
+    <a href="/minutes.html">Minutes &amp; Reports</a>
+    <a href="/announcements.html">Town Announcements</a>
+    <a href="/forms.html">Forms &amp; Documents</a>
+    <a href="/contact.html">Contact Town Hall</a>
+  </div>

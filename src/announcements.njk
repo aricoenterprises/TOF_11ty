@@ -1,0 +1,56 @@
+---
+layout: base.njk
+title: "Town Announcements — Town of Florida, MA"
+description: "Town of Florida, MA — Town Announcements, news, and events."
+navKey: announcements
+permalink: announcements.html
+---
+
+  <div class="page-header">
+    <div class="container">
+      <p class="page-header__eyebrow">Town of Florida, MA</p>
+      <h1 class="page-header__title">Town Announcements</h1>
+      <p class="page-header__desc">Latest news, events, notices, and updates from the Town of Florida.</p>
+    </div>
+  </div>
+
+  <div class="breadcrumb container">
+    <a href="/">Home</a><span>›</span> Town Announcements
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- SECTION JUMP NAV -->
+      <div class="section-jump" style="margin-bottom:40px;">
+        {% for section in announcements.sections %}
+        <a href="#{{ section.id }}" class="section-jump__link">{{ section.title }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- ANNOUNCEMENT SECTIONS — driven by _data/announcements.json -->
+      {% for section in announcements.sections %}
+      <div id="{{ section.id }}" style="margin-bottom:48px;">
+        <div style="margin-bottom:20px;">
+          <p class="section-eyebrow">Announcements</p>
+          <h2 class="section-title" style="text-align:left; margin-bottom:6px;">{{ section.title }}</h2>
+          <p style="color:var(--clr-mid); font-size:.95rem;">{{ section.description }}</p>
+        </div>
+        {% if section.items | length > 0 %}
+        <div class="doc-list">
+          {% for item in section.items %}
+          <div class="doc-item">
+            <span class="doc-item__badge doc-item__badge--{{ item.type }}">{% if item.type == "docx" %}Word{% else %}PDF{% endif %}</span>
+            <span class="doc-item__name"><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></span>
+            {% if item.description %}<span class="doc-item__desc" style="color:var(--clr-mid); font-size:.875rem; display:block; margin-top:2px;">{{ item.description }}</span>{% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p style="color:var(--clr-mid); font-style:italic;">No current announcements in this section. Check back soon.</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>

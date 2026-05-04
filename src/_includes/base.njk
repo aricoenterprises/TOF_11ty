@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ description or site.description }}" />
+  <title>{{ title or site.title }}</title>
+  <link rel="icon" type="image/webp" href="/images/favicon.webp" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  {% include "nav.njk" %}
+
+  {{ content | safe }}
+
+  {% include "footer.njk" %}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

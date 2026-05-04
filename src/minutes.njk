@@ -1,0 +1,95 @@
+---
+layout: base.njk
+title: "Minutes & Reports — Town of Florida, MA"
+description: "Town of Florida, MA — Minutes, Reports, Town Meeting Warrants, and Agendas."
+navKey: minutes
+permalink: minutes.html
+---
+
+  <div class="page-header">
+    <div class="container">
+      <p class="page-header__eyebrow">Town of Florida, MA</p>
+      <h1 class="page-header__title">Minutes &amp; Reports</h1>
+      <p class="page-header__desc">Selectmen meeting minutes, annual town reports, warrants, and board agendas.</p>
+    </div>
+  </div>
+
+  <div class="breadcrumb container">
+    <a href="/">Home</a><span>›</span> Minutes &amp; Reports
+  </div>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- JUMP LINKS -->
+      <div class="section-jump">
+        <strong style="font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--clr-mid);align-self:center;">Jump to:</strong>
+        <a href="#selectboard-minutes">Selectboard Minutes</a>
+        <a href="#annual-reports">Annual Town Reports</a>
+        <a href="#warrants">Town Meeting Warrants</a>
+        <a href="#agendas">Meetings &amp; Agendas</a>
+      </div>
+
+      <!-- SELECTBOARD MINUTES — driven by _data/minutes.json -->
+      <h2 id="selectboard-minutes" style="margin-bottom:8px;">Selectboard Meeting Minutes</h2>
+      <p style="color:var(--clr-mid); margin-bottom:24px;">Approved minutes from Selectboard meetings, organized by fiscal year (most recent first). Files marked <span style="font-size:.75rem;font-weight:600;color:var(--clr-gold);background:rgba(192,121,65,.08);border:1px solid rgba(192,121,65,.22);padding:1px 6px;border-radius:4px;">Word</span> will open in Microsoft Word or Google Docs.</p>
+
+      {% for group in minutes.selectboard_minutes %}
+      <details class="collapse-section" {% if group.open %}open{% endif %}>
+        <summary>
+          <span>{{ group.label }}</span>
+          <span class="summary-right"><span class="summary-count">{{ group.docs | length }} meetings</span><span class="summary-toggle">{% if group.open %}−{% else %}+{% endif %}</span></span>
+        </summary>
+        <div class="collapse-body"><div class="collapse-body-grid"><div class="doc-list">
+          {% for doc in group.docs %}
+          <div class="doc-item">
+            <span class="doc-item__name">{{ doc.name }}</span>
+            <span class="doc-item__badge doc-item__badge--{{ doc.type }}">{% if doc.type == "docx" %}Word{% else %}PDF{% endif %}</span>
+            <a class="doc-item__link" href="{{ doc.url }}" target="_blank" rel="noopener">Open →</a>
+          </div>
+          {% endfor %}
+        </div></div></div>
+      </details>
+      {% endfor %}
+
+      <!-- ANNUAL TOWN REPORTS — driven by _data/minutes.json -->
+      <h2 id="annual-reports" style="margin-bottom:8px; margin-top:16px;">Annual Town Reports</h2>
+      <p style="color:var(--clr-mid); margin-bottom:24px;">Compiled annual reports for the Town of Florida.</p>
+      <div class="minutes-grid" style="margin-bottom:56px;">
+        {% for report in minutes.annual_reports %}
+        <div class="minutes-card">
+          <div class="minutes-card__year">{{ report.year }}</div>
+          <div class="minutes-card__title">{{ report.title }}</div>
+          <a href="{{ report.url }}" target="_blank" rel="noopener" class="minutes-card__link">Open PDF →</a>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- TOWN MEETING WARRANTS — driven by _data/minutes.json -->
+      <h2 id="warrants" style="margin-bottom:8px;">Town Meeting Warrants</h2>
+      <p style="color:var(--clr-mid); margin-bottom:24px;">Official warrants and Annual Town Meeting results.</p>
+      <div class="minutes-grid" style="margin-bottom:56px;">
+        {% for warrant in minutes.warrants %}
+        <div class="minutes-card">
+          <div class="minutes-card__year">{{ warrant.year }}</div>
+          <div class="minutes-card__title">{{ warrant.title }}</div>
+          <a href="{{ warrant.url }}" target="_blank" rel="noopener" class="minutes-card__link">Open →</a>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- MEETINGS & AGENDAS — driven by _data/minutes.json -->
+      <h2 id="agendas" style="margin-bottom:8px;">Meetings &amp; Agendas</h2>
+      <p style="color:var(--clr-mid); margin-bottom:24px;">Upcoming and recent board meeting agendas.</p>
+      <div class="minutes-grid" style="margin-bottom:48px;">
+        {% for agenda in minutes.agendas %}
+        <div class="minutes-card">
+          <div class="minutes-card__year">{{ agenda.year }}</div>
+          <div class="minutes-card__title">{{ agenda.title }}</div>
+          <a href="{{ agenda.url }}" target="_blank" rel="noopener" class="minutes-card__link">Open PDF →</a>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </section>

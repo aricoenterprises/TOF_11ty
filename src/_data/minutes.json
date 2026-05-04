@@ -1,0 +1,840 @@
+{
+  "selectboard_minutes": [
+    {
+      "fy": 2026,
+      "label": "FY 2026 \u2014 Selectboard Minutes",
+      "open": true,
+      "docs": [
+        {
+          "name": "April 8, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69ea68e999216.docx"
+        },
+        {
+          "name": "March 25, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69ea68e999216.docx"
+        },
+        {
+          "name": "March 18, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69c56383d2e77.docx"
+        },
+        {
+          "name": "March 11, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69c56158daaa1.docx"
+        },
+        {
+          "name": "February 25, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69b311858865f.docx"
+        },
+        {
+          "name": "February 11, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69a096bd14542.docx"
+        },
+        {
+          "name": "January 28, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_698f86eccb1f5.docx"
+        },
+        {
+          "name": "January 14, 2026",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_697bc32a25b61.docx"
+        },
+        {
+          "name": "December 3, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_697bc32a25b61.docx"
+        },
+        {
+          "name": "November 19, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6931d8ed6668b.docx"
+        },
+        {
+          "name": "November 5, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_691f3ed30df3f.docx"
+        },
+        {
+          "name": "October 29, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_691f3ed30df3f.docx"
+        },
+        {
+          "name": "October 22, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_691f32b92f082.docx"
+        },
+        {
+          "name": "October 8, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68fa835bb430f.docx"
+        },
+        {
+          "name": "September 24, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_695439d8ab8c8.docx"
+        },
+        {
+          "name": "September 10, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68d56149a1b97.docx"
+        },
+        {
+          "name": "August 27, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68c2d62b3516c.docx"
+        },
+        {
+          "name": "August 13, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68c2d62b3516c.docx"
+        },
+        {
+          "name": "July 30, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68b05595cf741.docx"
+        },
+        {
+          "name": "July 16, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_688ba69709be5.docx"
+        },
+        {
+          "name": "July 2, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68794743c1a5a.docx"
+        }
+      ]
+    },
+    {
+      "fy": 2025,
+      "label": "FY 2025 \u2014 Selectboard Minutes",
+      "open": false,
+      "docs": [
+        {
+          "name": "June 18, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6866cd7f6566d.docx"
+        },
+        {
+          "name": "June 10, 2025 \u2014 Bridge Meeting",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68640a7eed632.docx"
+        },
+        {
+          "name": "June 4, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_68640489766f7.docx"
+        },
+        {
+          "name": "May 28, 2025 \u2014 Finance Joint",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_686408699a89c.docx"
+        },
+        {
+          "name": "May 21, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6864090d1a393.docx"
+        },
+        {
+          "name": "May 13, 2025 \u2014 Finance Joint",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_682f507b3bd5d.docx"
+        },
+        {
+          "name": "May 7, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_682f507b3bd5d.docx"
+        },
+        {
+          "name": "April 30, 2025 \u2014 Finance Joint",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_682f507b3bd5d.docx"
+        },
+        {
+          "name": "April 23, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_681cd554033f6.docx"
+        },
+        {
+          "name": "April 9, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_680bb48ec1680.docx"
+        },
+        {
+          "name": "March 26, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67f9254be4a33.docx"
+        },
+        {
+          "name": "March 12, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67e5965bb4b6f.docx"
+        },
+        {
+          "name": "February 26, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67d310b7ab459.docx"
+        },
+        {
+          "name": "February 12, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67d310b7ab459.docx"
+        },
+        {
+          "name": "January 29, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67c216b78f52a.docx"
+        },
+        {
+          "name": "January 15, 2025",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_679b96b44c74e.docx"
+        },
+        {
+          "name": "December 18, 2024",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_679b96b44c74e.docx"
+        },
+        {
+          "name": "December 4, 2024",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_676486b7e5b34.docx"
+        },
+        {
+          "name": "November 20, 2024",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6751d2fa216d8.docx"
+        },
+        {
+          "name": "November 13, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_673f67570834a.pdf"
+        },
+        {
+          "name": "November 6, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_673f674c14b1f.pdf"
+        },
+        {
+          "name": "November 4, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_672e733d63df0.pdf"
+        },
+        {
+          "name": "October 23, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_672e7258e7b7b.pdf"
+        },
+        {
+          "name": "October 9, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_671a4f0c46c53.pdf"
+        },
+        {
+          "name": "September 25, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_67082c847e1df.pdf"
+        },
+        {
+          "name": "August 27, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66f58ebf6d53b.pdf"
+        },
+        {
+          "name": "August 14, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66d1cbfec5d06.pdf"
+        },
+        {
+          "name": "July 31, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66c4f43d4a743.pdf"
+        },
+        {
+          "name": "July 15, 2024 \u2014 Finance Joint",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66b26fc8efa35.pdf"
+        },
+        {
+          "name": "July 15, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66b26fc8efa35.pdf"
+        },
+        {
+          "name": "July 3, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66b26fae5df4a.pdf"
+        }
+      ]
+    },
+    {
+      "fy": 2024,
+      "label": "FY 2024 \u2014 Selectboard Minutes",
+      "open": false,
+      "docs": [
+        {
+          "name": "June 19, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66884a565bca1.pdf"
+        },
+        {
+          "name": "June 5, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6674320282075.pdf"
+        },
+        {
+          "name": "May 22, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66632147e2b5b.pdf"
+        },
+        {
+          "name": "May 8, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_664f9e78eb200.pdf"
+        },
+        {
+          "name": "April 17, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_664f9d50d7427.pdf"
+        },
+        {
+          "name": "April 10, 2024 \u2014 Finance Joint",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_664f9b26a6d09.pdf"
+        },
+        {
+          "name": "April 10, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_664f9c68bcece.pdf"
+        },
+        {
+          "name": "March 27, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6617e920129a7.pdf"
+        },
+        {
+          "name": "March 13, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66071a278acdc.pdf"
+        },
+        {
+          "name": "February 28, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65f340b1d1765.pdf"
+        },
+        {
+          "name": "February 14, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65e0cfc48fbd1.pdf"
+        },
+        {
+          "name": "January 31, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65ce47b00989e.pdf"
+        },
+        {
+          "name": "January 17, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65ce4665cbef9.pdf"
+        },
+        {
+          "name": "January 3, 2024",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65735a56b7b2b.pdf"
+        },
+        {
+          "name": "December 20, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6596eaab127a7.pdf"
+        },
+        {
+          "name": "December 6, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6596e9164d429.pdf"
+        },
+        {
+          "name": "November 8, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6596e880ca50c.pdf"
+        },
+        {
+          "name": "November 3, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65735a56b7b2b.pdf"
+        },
+        {
+          "name": "October 25, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65735a2e6ce24.pdf"
+        },
+        {
+          "name": "October 11, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_653ac39150adb.pdf"
+        },
+        {
+          "name": "September 27, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6528375a49897.pdf"
+        },
+        {
+          "name": "September 13, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65283698d5208.pdf"
+        },
+        {
+          "name": "August 30, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66632998a7b80.pdf"
+        },
+        {
+          "name": "August 16, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_66632998a7b80.pdf"
+        },
+        {
+          "name": "August 2, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64f7720816514.pdf"
+        },
+        {
+          "name": "July 19, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64ccf6d118b28.pdf"
+        },
+        {
+          "name": "July 12, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64ccf64cac26c.pdf"
+        },
+        {
+          "name": "July 5, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64ccf631d6309.pdf"
+        }
+      ]
+    },
+    {
+      "fy": 2023,
+      "label": "FY 2023 \u2014 Selectboard Minutes",
+      "open": false,
+      "docs": [
+        {
+          "name": "June 30, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64c3e3ec87d65.pdf"
+        },
+        {
+          "name": "June 21, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_64cd01d6c0411.pdf"
+        },
+        {
+          "name": "June 7, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6494a8eeaad40.pdf"
+        },
+        {
+          "name": "May 24, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_648353fb691bb.pdf"
+        },
+        {
+          "name": "May 10, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6470df513641e.pdf"
+        },
+        {
+          "name": "April 26, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6470dc7d8dea7.pdf"
+        },
+        {
+          "name": "April 12, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_645e740f5fbc1.pdf"
+        },
+        {
+          "name": "April 5, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_645e74043231e.pdf"
+        },
+        {
+          "name": "March 29, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6458fc86d843d.pdf"
+        },
+        {
+          "name": "March 1, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6427364550ecd.pdf"
+        },
+        {
+          "name": "February 15, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6400c6c9b2182.pdf"
+        },
+        {
+          "name": "February 1, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd2193c99df.pdf"
+        },
+        {
+          "name": "January 18, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd217ce8557.pdf"
+        },
+        {
+          "name": "January 4, 2023",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd217ce8557.pdf"
+        },
+        {
+          "name": "December 21, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd214b3809e.pdf"
+        },
+        {
+          "name": "December 7, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd213640d68.pdf"
+        },
+        {
+          "name": "November 17, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd2122885c9.pdf"
+        },
+        {
+          "name": "October 26, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd211221ceb.pdf"
+        },
+        {
+          "name": "October 12, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd211221ceb.pdf"
+        },
+        {
+          "name": "September 28, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd211221ceb.pdf"
+        },
+        {
+          "name": "September 14, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd211221ceb.pdf"
+        },
+        {
+          "name": "August 31, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd207fd0dee.pdf"
+        },
+        {
+          "name": "August 17, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd20364cc46.pdf"
+        },
+        {
+          "name": "August 3, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd1ff0aa624.pdf"
+        },
+        {
+          "name": "July 20, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd1daa9d6a4.pdf"
+        },
+        {
+          "name": "July 6, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63fd1daa9d6a4.pdf"
+        }
+      ]
+    },
+    {
+      "fy": 2022,
+      "label": "FY 2022 \u2014 Selectboard Minutes",
+      "open": false,
+      "docs": [
+        {
+          "name": "June 22, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938a2725d5b.pdf"
+        },
+        {
+          "name": "June 1, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938a12179d7.pdf"
+        },
+        {
+          "name": "May 25, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938a12179d7.pdf"
+        },
+        {
+          "name": "May 18, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389e998fd2.pdf"
+        },
+        {
+          "name": "May 11, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389d4cbc05.pdf"
+        },
+        {
+          "name": "May 4, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389c769491.pdf"
+        },
+        {
+          "name": "April 27, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389b53dd54.pdf"
+        },
+        {
+          "name": "April 13, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389a7b7b28.pdf"
+        },
+        {
+          "name": "April 6, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6393899897b24.pdf"
+        },
+        {
+          "name": "March 30, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389844fa0b.pdf"
+        },
+        {
+          "name": "March 16, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938972d45c5.pdf"
+        },
+        {
+          "name": "March 2, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389844fa0b.pdf"
+        },
+        {
+          "name": "February 16, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_639389540109e.pdf"
+        },
+        {
+          "name": "February 2, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938945359cb.pdf"
+        },
+        {
+          "name": "January 19, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6393893533793.pdf"
+        },
+        {
+          "name": "January 5, 2022",
+          "type": "pdf",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_63938922e3e78.pdf"
+        },
+        {
+          "name": "January 5, 2022",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_61eafc76c7b5c.docx"
+        },
+        {
+          "name": "December 22, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_61eafc636accf.docx"
+        },
+        {
+          "name": "December 8, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_61d481260e763.docx"
+        },
+        {
+          "name": "November 10, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_61d480de4829d.docx"
+        },
+        {
+          "name": "October 27, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_61d480cae5733.docx"
+        },
+        {
+          "name": "September 28, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_618144cfcf29e.docx"
+        },
+        {
+          "name": "September 15, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_615afb57a3b19.docx"
+        },
+        {
+          "name": "September 1, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_614351df1da3a.docx"
+        },
+        {
+          "name": "August 18, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e8eabd1c9.docx"
+        },
+        {
+          "name": "August 18, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e8c99af1c.docx"
+        },
+        {
+          "name": "August 4, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_611e6d9a0e6f9.docx"
+        },
+        {
+          "name": "July 21, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e8f61528f.docx"
+        },
+        {
+          "name": "July 21, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_611e6d89a9fb4.docx"
+        },
+        {
+          "name": "July 7, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e9075891b.docx"
+        },
+        {
+          "name": "July 7, 2021",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_60feb5db37671.docx"
+        },
+        {
+          "name": "June 23, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e92c1c074.docx"
+        },
+        {
+          "name": "June 9, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e94666181.docx"
+        },
+        {
+          "name": "April 28, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e97394740.docx"
+        },
+        {
+          "name": "April 14, 2021 \u2014 Exec. Session",
+          "type": "docx",
+          "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6130e97394740.docx"
+        }
+      ]
+    }
+  ],
+  "annual_reports": [
+    {
+      "year": "FY 2022",
+      "title": "Annual Town Report \u2014 FY22",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65baa34017b3b.pdf"
+    },
+    {
+      "year": "FY 2021",
+      "title": "Annual Town Report \u2014 FY21",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65baa3a231db8.pdf"
+    },
+    {
+      "year": "FY 2020",
+      "title": "Annual Town Report \u2014 FY20",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65baa3a231db8.pdf"
+    },
+    {
+      "year": "FY 2019",
+      "title": "Annual Town Report \u2014 FY19",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65baa3b57b175.pdf"
+    },
+    {
+      "year": "FY 2018",
+      "title": "Annual Town Report \u2014 FY18",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_65baa3be9e96a.pdf"
+    }
+  ],
+  "warrants": [
+    {
+      "year": "FY 2026",
+      "title": "FY26 ATM Results",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890ea654b2df.xlsx"
+    },
+    {
+      "year": "FY 2026",
+      "title": "FY26 Warrant (Signed)",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890da88955c7.pdf"
+    },
+    {
+      "year": "FY 2025",
+      "title": "FY25 ATM Results",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890ea7717584.xlsx"
+    },
+    {
+      "year": "FY 2024",
+      "title": "FY24 ATM Results",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890eadb27ace.xlsx"
+    },
+    {
+      "year": "FY 2024",
+      "title": "FY24 Warrant (Signed)",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890b8f994c9e.pdf"
+    },
+    {
+      "year": "FY 2022",
+      "title": "FY22 ATM Results",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890ee5c6ec28.xlsx"
+    },
+    {
+      "year": "FY 2022",
+      "title": "FY22 Warrant",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890dc8fab77a.xlsx"
+    },
+    {
+      "year": "March 2023",
+      "title": "Special Town Meeting Warrant",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890e302e380c.pdf"
+    },
+    {
+      "year": "FY 2021",
+      "title": "FY21 ATM Results",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890f15ad0d51.pdf"
+    },
+    {
+      "year": "FY 2021",
+      "title": "FY21 Warrant",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_6890f13618645.xlsx"
+    }
+  ],
+  "agendas": [
+    {
+      "year": "May 6, 2026",
+      "title": "FSCC Board Agenda",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69f26b0da7094.pdf"
+    },
+    {
+      "year": "May 11, 2026",
+      "title": "Assessors Board Agenda",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69f4fcc586fa2.docx"
+    },
+    {
+      "year": "April 28, 2026",
+      "title": "Board of Health Agenda",
+      "url": "https://files.cdn-files-a.com/uploads/2365528/normal_69ea63ae6d5b3.pdf"
+    }
+  ]
+}
