@@ -35,10 +35,10 @@ permalink: minutes.html
       <p style="color:var(--clr-mid); margin-bottom:24px;">Approved minutes from Selectboard meetings, organized by fiscal year (most recent first). Files marked <span style="font-size:.75rem;font-weight:600;color:var(--clr-gold);background:rgba(192,121,65,.08);border:1px solid rgba(192,121,65,.22);padding:1px 6px;border-radius:4px;">Word</span> will open in Microsoft Word or Google Docs.</p>
 
       {% for group in minutes.selectboard_minutes %}
-      <details class="collapse-section" {% if group.open %}open{% endif %}>
+      <details class="collapse-section">
         <summary>
           <span>{{ group.label }}</span>
-          <span class="summary-right"><span class="summary-count">{{ group.docs | length }} meetings</span><span class="summary-toggle">{% if group.open %}−{% else %}+{% endif %}</span></span>
+          <span class="summary-right"><span class="summary-count">{{ group.docs | length }} meetings</span><span class="summary-toggle">+</span></span>
         </summary>
         <div class="collapse-body"><div class="collapse-body-grid"><div class="doc-list">
           {% for doc in group.docs %}
