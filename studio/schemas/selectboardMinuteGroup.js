@@ -1,3 +1,5 @@
+import { PrependArrayInput } from '../components/PrependArrayInput.jsx'
+
 export default {
   name: 'selectboardMinuteGroup',
   title: 'Selectboard Minutes (by FY)',
@@ -37,12 +39,15 @@ export default {
       name: 'documents',
       title: 'Meeting Documents',
       type: 'array',
-      description: 'Add each meeting from newest to oldest.',
+      description: 'Click "Add item" above to add a new meeting at the top.',
+      components: { input: PrependArrayInput },
       of: [
         {
           type: 'object',
           name: 'meetingDoc',
           title: 'Meeting Document',
+          // Expand inline — no popup dialog
+          options: { modal: { type: 'dialog', width: 'medium' }, collapsible: false },
           preview: {
             select: { title: 'meetingName', subtitle: 'fileType' },
             prepare({ title, subtitle }) {
