@@ -1,2 +1,7 @@
 node_modules/
 _site/
+
+# Environment variables — never commit these
+.env
+.env.local
+studio/.env.local

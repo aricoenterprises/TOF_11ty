@@ -1434,4 +1434,6 @@ p:last-child { margin-bottom: 0; }
   :root          { --nav-h: 60px; }
   .quick-links   { grid-template-columns: repeat(2, 1fr); }
   .contact-form  { padding: 24px 18px; }
-  .stats-ba
+  .stats-bar     { grid-template-columns: 1fr 1fr; }
+  .container     { padding: 0 16px; }
+}

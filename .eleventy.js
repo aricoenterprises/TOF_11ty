@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy({"src/uploads": "src/uploads"});
   eleventyConfig.addPassthroughCopy("src/favicon.svg");
-  eleventyConfig.addPassthroughCopy("src/admin");
+  // Note: src/admin (Decap CMS) removed — using Sanity Studio instead
 
   // Watch CSS/JS for changes during development
   eleventyConfig.addWatchTarget("src/css/");

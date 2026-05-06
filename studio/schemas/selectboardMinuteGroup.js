@@ -1,0 +1,86 @@
+export default {
+  name: 'selectboardMinuteGroup',
+  title: 'Selectboard Minutes (by FY)',
+  type: 'document',
+  orderings: [
+    { title: 'Fiscal Year, Newest', name: 'fyDesc', by: [{ field: 'fy', direction: 'desc' }] }
+  ],
+  preview: {
+    select: { title: 'title', subtitle: 'fy' },
+    prepare({ title, subtitle }) {
+      return { title: title || `FY ${subtitle}`, subtitle: `${subtitle}` }
+    }
+  },
+  fields: [
+    {
+      name: 'fy',
+      title: 'Fiscal Year',
+      type: 'number',
+      description: 'e.g. 2026 for FY 2026 (July 2025 – June 2026)',
+      validation: Rule => Rule.required().integer().min(2000).max(2100)
+    },
+    {
+      name: 'title',
+      title: 'Label',
+      type: 'string',
+      description: 'e.g. FY 2026 — Selectboard Minutes',
+      validation: Rule => Rule.required()
+    },
+    {
+      name: 'openByDefault',
+      title: 'Open by default on the website?',
+      type: 'boolean',
+      description: 'Turn on for the current fiscal year only. All others should be off.',
+      initialValue: false
+    },
+    {
+      name: 'documents',
+      title: 'Meeting Documents',
+      type: 'array',
+      description: 'Add each meeting from newest to oldest.',
+      of: [
+        {
+          type: 'object',
+          name: 'meetingDoc',
+          title: 'Meeting Document',
+          preview: {
+            select: { title: 'meetingName', subtitle: 'fileType' },
+            prepare({ title, subtitle }) {
+              return { title, subtitle: subtitle?.toUpperCase() }
+            }
+          },
+          fields: [
+            {
+              name: 'meetingName',
+              title: 'Meeting Date / Name',
+              type: 'string',
+              description: 'e.g. April 8, 2026  or  March 25, 2026 — Finance Joint',
+              validation: Rule => Rule.required()
+            },
+            {
+              name: 'fileType',
+              title: 'File Type',
+              type: 'string',
+              options: {
+                list: [
+                  { title: 'PDF', value: 'pdf' },
+                  { title: 'Word Document (.docx)', value: 'docx' }
+                ],
+                layout: 'radio'
+              },
+              initialValue: 'docx',
+              validation: Rule => Rule.required()
+            },
+            {
+              name: 'fileUrl',
+              title: 'File URL',
+              type: 'url',
+              description: 'Paste the full URL from cdn-files-a.com or wherever the file is hosted.',
+              validation: Rule => Rule.required()
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
