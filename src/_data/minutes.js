@@ -11,7 +11,7 @@ module.exports = async function () {
           "docs": documents[] {
             "name": meetingName,
             "type": fileType,
-            "url": fileUrl
+            "url": coalesce(file.asset->url, fileUrl)
           }
         }
       `),
@@ -19,21 +19,21 @@ module.exports = async function () {
         *[_type == "annualReport"] | order(year desc) {
           year,
           title,
-          fileUrl
+          "url": coalesce(file.asset->url, fileUrl)
         }
       `),
       client.fetch(`
         *[_type == "warrant"] | order(year desc) {
           year,
           title,
-          fileUrl
+          "url": coalesce(file.asset->url, fileUrl)
         }
       `),
       client.fetch(`
         *[_type == "agenda"] | order(date desc) {
-          date,
+          "year": date,
           title,
-          fileUrl
+          "url": coalesce(file.asset->url, fileUrl)
         }
       `),
     ])
@@ -42,9 +42,9 @@ module.exports = async function () {
       return { selectboard_minutes, annual_reports, warrants, agendas }
     }
   } catch (err) {
-    console.warn('[Sanity] minutes.js fetch failed, using fallback JSON:', err.message)
+    console.warn('[Sanity] minutes.js fetch failed:', err.message)
   }
 
-  // Fallback — load original minutes.json
-  return require('./minutes.json')
+  // Hard fallback if Sanity is unreachable
+  return { selectboard_minutes: [], annual_reports: [], warrants: [], agendas: [] }
 }

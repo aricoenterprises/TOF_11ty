@@ -27,13 +27,6 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'fileUrl',
-      title: 'File or Link URL',
-      type: 'url',
-      description: 'Link to the PDF, Word doc, or external page.',
-      validation: Rule => Rule.required()
-    },
-    {
       name: 'fileType',
       title: 'File Type',
       type: 'string',
@@ -47,6 +40,33 @@ export default {
       },
       initialValue: 'pdf',
       validation: Rule => Rule.required()
+    },
+    {
+      name: 'file',
+      title: 'Upload File',
+      type: 'file',
+      description: 'Upload the PDF or Word document.',
+      options: { accept: '.pdf,.docx' },
+      hidden: ({ document }) => document?.fileType === 'link',
+      validation: Rule => Rule.custom((value, context) => {
+        if (context.document?.fileType !== 'link' && !value && !context.document?.fileUrl) {
+          return 'Please upload a file or provide a URL.'
+        }
+        return true
+      })
+    },
+    {
+      name: 'fileUrl',
+      title: 'External Link URL',
+      type: 'url',
+      description: 'Paste the full URL for external links.',
+      hidden: ({ document }) => document?.fileType !== 'link',
+      validation: Rule => Rule.custom((value, context) => {
+        if (context.document?.fileType === 'link' && !value) {
+          return 'Please provide a URL for external links.'
+        }
+        return true
+      })
     },
     {
       name: 'section',

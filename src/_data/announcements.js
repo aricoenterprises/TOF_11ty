@@ -50,7 +50,7 @@ module.exports = async function () {
       *[_type == "announcement"] | order(order asc, _createdAt desc) {
         title,
         description,
-        "url": fileUrl,
+        "url": coalesce(file.asset->url, fileUrl),
         "type": fileType,
         section,
         featured

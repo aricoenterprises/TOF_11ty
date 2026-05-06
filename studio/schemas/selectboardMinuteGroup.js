@@ -72,10 +72,11 @@ export default {
               validation: Rule => Rule.required()
             },
             {
-              name: 'fileUrl',
-              title: 'File URL',
-              type: 'url',
-              description: 'Paste the full URL from cdn-files-a.com or wherever the file is hosted.',
+              name: 'file',
+              title: 'Upload Document',
+              type: 'file',
+              description: 'Upload the PDF or Word document.',
+              options: { accept: '.pdf,.docx' },
               validation: Rule => Rule.required()
             }
           ]

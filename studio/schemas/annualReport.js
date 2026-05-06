@@ -22,9 +22,11 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'fileUrl',
-      title: 'File URL',
-      type: 'url',
+      name: 'file',
+      title: 'Upload PDF',
+      type: 'file',
+      description: 'Upload the annual report PDF.',
+      options: { accept: '.pdf' },
       validation: Rule => Rule.required()
     }
   ]
