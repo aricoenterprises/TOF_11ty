@@ -27,7 +27,7 @@ permalink: forms.html
         <p class="section-sub">Click any form to open or download. Contact Town Hall if you need assistance completing a form.</p>
       </div>
 
-      <!-- FORMS GRID — driven by _data/forms.json -->
+      <!-- FORMS GRID — driven by _data/forms.js -->
       <div class="forms-grid">
         {% for form in forms.forms %}
         <div class="form-card">
@@ -47,6 +47,44 @@ permalink: forms.html
           <a href="{{ form.url }}" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Open PDF</a>
         </div>
         {% endfor %}
+      </div>
+
+      <!-- TOWN BYLAWS & ZONING BYLAWS -->
+      <div style="margin-top:56px;">
+        <div style="text-align:center; margin-bottom:32px;">
+          <p class="section-eyebrow" style="margin: 0 auto 12px;">Official Documents</p>
+          <h2 class="section-title" id="bylaws">Town Bylaws &amp; Zoning Bylaws</h2>
+          <p class="section-sub">Current adopted bylaws for the Town of Florida. ODT files can be opened in Microsoft Word, Google Docs, or LibreOffice.</p>
+        </div>
+        <div class="minutes-grid">
+          <div class="minutes-card">
+            <div class="minutes-card__year">2025</div>
+            <div class="minutes-card__title">General Bylaw Approval 2025</div>
+            <a href="https://files.cdn-files-a.com/uploads/2365528/normal_6920b1f07cd4a.pdf" target="_blank" rel="noopener" class="minutes-card__link">Open PDF →</a>
+          </div>
+          <div class="minutes-card">
+            <div class="minutes-card__year">2025</div>
+            <div class="minutes-card__title">Town Bylaws 2025</div>
+            <a href="https://files.cdn-files-a.com/uploads/2365528/normal_6920bbbd0e86e.odt" target="_blank" rel="noopener" class="minutes-card__link">Open (.odt) →</a>
+          </div>
+          <div class="minutes-card">
+            <div class="minutes-card__year">2025</div>
+            <div class="minutes-card__title">Zoning Bylaws 2025</div>
+            <a href="https://files.cdn-files-a.com/uploads/2365528/normal_692a0ba96b10a.odt" target="_blank" rel="noopener" class="minutes-card__link">Open (.odt) →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ANSWERS TO COMMON TOWN HALL QUESTIONS -->
+      <div style="margin-top:56px; margin-bottom:48px;">
+        <div style="text-align:center; margin-bottom:32px;">
+          <p class="section-eyebrow" style="margin: 0 auto 12px;">Helpful Information</p>
+          <h2 class="section-title" id="faq">Answers to Common Town Hall Questions</h2>
+          <p class="section-sub">A guide to frequently asked questions about Town Hall services, permits, and procedures.</p>
+        </div>
+        <div style="text-align:center;">
+          <a href="https://files.cdn-files-a.com/uploads/2365528/normal_69f0fd0249e1e.docx" target="_blank" rel="noopener" class="btn btn--primary">Open Document →</a>
+        </div>
       </div>
 
     </div>

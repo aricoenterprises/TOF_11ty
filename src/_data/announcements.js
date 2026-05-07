@@ -101,6 +101,22 @@ module.exports = async function () {
         type: 'pdf',
       },
     ],
-    sections: SECTION_META.map(meta => ({ ...meta, items: [] })),
+    sections: SECTION_META.map(meta => {
+      if (meta.id === 'latest-news') {
+        return {
+          ...meta,
+          items: [
+            { title: 'General Bylaws Changes',                      url: 'https://files.cdn-files-a.com/uploads/2365528/normal_683603de1e1bb.pdf',  type: 'pdf'  },
+            { title: 'Zoning Bylaws Changes',                       url: 'https://files.cdn-files-a.com/uploads/2365528/normal_683603b4cb934.pdf',  type: 'pdf'  },
+            { title: 'BRTA Senior Rides',                           url: 'https://files.cdn-files-a.com/uploads/2365528/normal_68c473b4b113b.pdf',  type: 'pdf'  },
+            { title: 'Florida CDBG Housing Rehabilitation Program', url: 'https://files.cdn-files-a.com/uploads/2365528/normal_68d59e064963b.pdf',  type: 'pdf'  },
+            { title: 'McCann Repair Grant — Town Approval',         url: 'https://files.cdn-files-a.com/uploads/2365528/normal_68d6b89c0ad77.pdf',  type: 'pdf'  },
+            { title: 'Shred Day — Saturday, May 9',                 url: 'https://files.cdn-files-a.com/uploads/2365528/normal_69cd8fa607e83.pdf',  type: 'pdf'  },
+            { title: 'National Grid — New Meters Installed',        url: 'https://files.cdn-files-a.com/uploads/2365528/normal_69f4fd5f60eae.docx', type: 'docx' },
+          ],
+        }
+      }
+      return { ...meta, items: [] }
+    }),
   }
 }
