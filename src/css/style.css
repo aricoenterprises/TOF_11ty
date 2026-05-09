@@ -225,7 +225,7 @@ p:last-child { margin-bottom: 0; }
   font-family: var(--font-sans);
   font-size: .6rem;
   font-weight: 500;
-  color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.75);
   letter-spacing: .1em;
   text-transform: uppercase;
   line-height: 1;
@@ -439,7 +439,7 @@ p:last-child { margin-bottom: 0; }
 }
 .hero__tagline {
   font-size: .9rem;
-  color: rgba(255,255,255,.42);
+  color: rgba(255,255,255,.72);
   font-style: italic;
   font-family: var(--font-display);
   margin-bottom: 40px;
@@ -529,7 +529,7 @@ p:last-child { margin-bottom: 0; }
 .btn--ghost:hover {
   background: rgba(255,255,255,.14);
   color: var(--clr-white);
-  border-color: rgba(255,255,255,.35);
+  border-color: rgba(255,255,255,.58);
 }
 .btn--outline {
   background: transparent;
@@ -1178,7 +1178,7 @@ p:last-child { margin-bottom: 0; }
   font-weight: 600;
   letter-spacing: .12em;
   text-transform: uppercase;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.58);
   margin-bottom: 18px;
 }
 .footer__links { display: flex; flex-direction: column; gap: 10px; }
@@ -1203,7 +1203,7 @@ p:last-child { margin-bottom: 0; }
   width: 16px; height: 16px;
   flex-shrink: 0;
   margin-top: 2px;
-  color: rgba(255,255,255,.38);
+  color: rgba(255,255,255,.58);
 }
 .footer__contact-icon svg {
   width: 16px; height: 16px;
@@ -1219,7 +1219,7 @@ p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
   gap: 12px;
   font-size: .8rem;
-  color: rgba(255,255,255,.28);
+  color: rgba(255,255,255,.50);
 }
 .footer__powered-by {
   display: inline-flex;
