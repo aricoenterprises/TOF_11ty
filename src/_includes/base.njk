@@ -11,10 +11,9 @@
 </head>
 <body>
 
-  <header>
-    <a href="#main-content" class="skip-nav">Skip to main content</a>
-    {% include "nav.njk" %}
-  </header>
+  <a href="#main-content" class="skip-nav">Skip to main content</a>
+
+  {% include "nav.njk" %}
 
   <main id="main-content">
     {{ content | safe }}
